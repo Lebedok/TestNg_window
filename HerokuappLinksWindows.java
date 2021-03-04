@@ -46,7 +46,5 @@ public class HerokuappLinksWindows {
             driver.close();
             driver.switchTo().window(parentWindow);
         } while (linkNumber < allLinks.size() - 1);
-
     }
-
 }
